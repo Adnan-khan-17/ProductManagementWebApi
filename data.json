@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "Name": "Apple",
+    "Prize": 80000,
+    "Quantity": 20
+  },
+  {
+    "Id": 2,
+    "Name": "Samsung",
+    "Prize": 50000,
+    "Quantity": 15
+  }
+]

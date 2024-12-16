@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\productmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:productmanagementapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|c:\\users\\hp\\onedrive\\desktop\\csharpprojects\\productmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1B34A3-9D1A-442E-8A80-DC7AA836DC9C}|ProductManagementApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "data.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\data.json",
+              "RelativeDocumentMoniker": "data.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\data.json",
+              "RelativeToolTip": "data.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T12:07:27.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:54:17.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:15:21.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductManagementApp.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\ProductManagementApp.csproj",
+              "RelativeDocumentMoniker": "ProductManagementApp.csproj",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\ProductManagementApp.csproj",
+              "RelativeToolTip": "ProductManagementApp.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T12:16:07.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:16:51.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:12:36.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\csharpprojects\\ProductManagementApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:24:36.548Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

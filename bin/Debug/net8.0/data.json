@@ -1,0 +1,15 @@
+
+  [
+    {
+      "id": 1,
+      "name": "Apple",
+      "prize": 80000,
+      "quantity": 20
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "prize": 50000,
+      "quantity": 15
+    }
+  ]
