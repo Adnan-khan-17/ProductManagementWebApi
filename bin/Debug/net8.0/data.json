@@ -1,15 +1,20 @@
-
-  [
-    {
-      "id": 1,
-      "name": "Apple",
-      "prize": 80000,
-      "quantity": 20
-    },
-    {
-      "id": 2,
-      "name": "Samsung",
-      "prize": 50000,
-      "quantity": 15
-    }
-  ]
+[
+  {
+    "Id": 1,
+    "Name": "Apple",
+    "Price": 80000,
+    "Quantity": 20
+  },
+  {
+    "Id": 2,
+    "Name": "Samsung",
+    "Price": 50000,
+    "Quantity": 15
+  },
+  {
+    "Id": 3,
+    "Name": "Xiomi",
+    "Price": 20000,
+    "Quantity": 12
+  }
+]

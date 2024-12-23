@@ -32,3 +32,15 @@ C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\obj\Debug\net8.
 C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\obj\Debug\net8.0\ref\ProductManagementApp.dll
 C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\data.json
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\OneDrive\Desktop\csharpprojects\ProductManagementApp\obj\Debug\net8.0\ProductManagementApp.sourcelink.json

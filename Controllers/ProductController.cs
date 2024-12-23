@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProductManagementApp.Interfaces;
 using ProductManagementApp.Models;
+using ProductManagementApp.Repository;
+using ProductManagementApp.Services;
 
 namespace ProductManagementApp.Controllers
 {
@@ -8,54 +9,52 @@ namespace ProductManagementApp.Controllers
     [ApiController]
     public class ProductController : Controller
     {
-        private IProductRepository _productRepository;
+        public IProductService _productService;
 
-        public ProductController(IProductRepository productRepository)
+        public ProductController(IProductService productService)
         {
-            _productRepository = productRepository;
+            _productService = productService;
         }
 
         [HttpGet]
-        public IActionResult GetProducts()
+        public IActionResult Get()
         {
-            var products = _productRepository.GetProducts();
+            var products = _productService.GetProducts();
             return Ok(products);
+        }
+        [HttpGet("id")]
+        public IActionResult GetProduct(int id)
+        { 
+            var product = _productService.GetProductById(id);
+            return Ok(product);
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Product newProduct) 
-        { var products = _productRepository.GetProducts(); 
-            newProduct.Id = products.Count > 0 ? products[^1].Id + 1 : 1;
-            products.Add(newProduct);
-            _productRepository.CreateProducts(products); 
-            return CreatedAtAction(nameof(GetProducts), new { id = newProduct.Id }, newProduct);
+        public IActionResult Post([FromBody] Product newProduct)
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            _productService.CreateProduct(newProduct);
+            return NoContent();
         }
 
-        [HttpPut("{id}")] 
-        public ActionResult Put(int id, [FromBody] Product updatedProduct) 
+        [HttpPut] 
+        public ActionResult Put([FromBody] Product updatedProduct) 
         {
-            var products = _productRepository.GetProducts();
-            var productIndex = products.FindIndex(p => p.Id == id);
-            if (productIndex == -1)
+            if (!ModelState.IsValid)
             {
-                return NotFound();
+                return BadRequest(ModelState);
             }
-            products[productIndex] = updatedProduct;
-            _productRepository.CreateProducts(products);
-            return NoContent(); 
+            _productService.UpdateProduct(updatedProduct);
+            return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        [HttpDelete]
+        public ActionResult Delete(Product product)
         {
-            var products = _productRepository.GetProducts();
-            var product = products.Find(p => p.Id == id); 
-            if (product == null)
-            {
-                return NotFound();
-            }
-            products.Remove(product);
-            _productRepository.CreateProducts(products);
+            _productService.DeleteProduct(product);
             return NoContent(); 
         }
 
