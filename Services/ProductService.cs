@@ -6,21 +6,25 @@ namespace ProductManagementApp.Services
     public class ProductService : IProductService
     {
         public readonly IProductRepository _repository;
-        public ProductService(IProductRepository repository) { }
+        public ProductService(IProductRepository repository) 
+        {
+            _repository = repository;
+        }
         public void CreateProduct(Product product)
         {
-            var products = _repository.GetProducts();
-            product.Id = products.Count > 0 ? products[^1].Id + 1 : 1;
-            _repository.CreateProduct(product);
+            var existingProducts = _repository.GetProducts();
+            product.Id = existingProducts.Count > 0 ? existingProducts[^1].Id + 1 : 1;
+            _repository.CreateProduct(product, existingProducts);
         }
 
-        public void DeleteProduct(Product product)
+        public List<Product>? DeleteProduct(Product product)
         {
-            var deleteproduct = GetProductById(product.Id);
+            var deleteproduct = _repository.GetProductById(product.Id);
             if (deleteproduct != null)
             {
-                _repository.DeleteProduct(deleteproduct);
+               return _repository.DeleteProduct(deleteproduct);
             }
+            return null;
         }
 
         public Product GetProductById(int id)
@@ -35,9 +39,9 @@ namespace ProductManagementApp.Services
              
         }
 
-        public void UpdateProduct(Product product)
+        public List<Product> UpdateProduct(Product product)
         {
-            _repository.UpdateProduct(product);
+           return _repository.UpdateProduct(product);
         }
     }
 }

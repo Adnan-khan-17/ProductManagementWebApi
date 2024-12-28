@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using ProductManagementApp.Models;
 using ProductManagementApp.Repository;
 using ProductManagementApp.Services;
@@ -37,7 +38,7 @@ namespace ProductManagementApp.Controllers
                 return BadRequest(ModelState);
             }
             _productService.CreateProduct(newProduct);
-            return NoContent();
+            return Ok();
         }
 
         [HttpPut] 
@@ -47,15 +48,15 @@ namespace ProductManagementApp.Controllers
             {
                 return BadRequest(ModelState);
             }
-            _productService.UpdateProduct(updatedProduct);
-            return NoContent();
+           var products = _productService.UpdateProduct(updatedProduct);
+            return Ok(products);
         }
 
         [HttpDelete]
         public ActionResult Delete(Product product)
         {
-            _productService.DeleteProduct(product);
-            return NoContent(); 
+            var products = _productService.DeleteProduct(product);
+            return Ok(products); 
         }
 
     }

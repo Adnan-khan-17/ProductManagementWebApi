@@ -2,19 +2,37 @@
   {
     "Id": 1,
     "Name": "Apple",
-    "Price": 80000,
-    "Quantity": 20
+    "Price": 80000.0,
+    "Quantity": 15
   },
   {
     "Id": 2,
     "Name": "Samsung",
-    "Price": 50000,
-    "Quantity": 15
+    "Price": 50000.0,
+    "Quantity": 20
   },
   {
     "Id": 3,
-    "Name": "Xiomi",
-    "Price": 20000,
-    "Quantity": 12
+    "Name": "Oppo",
+    "Price": 15000.0,
+    "Quantity": 30
+  },
+  {
+    "Id": 4,
+    "Name": "vivo",
+    "Price": 11000.0,
+    "Quantity": 40
+  },
+  {
+    "Id": 5,
+    "Name": "oneplus",
+    "Price": 18000.0,
+    "Quantity": 60
+  },
+  {
+    "Id": 6,
+    "Name": "updated",
+    "Price": 1.0,
+    "Quantity": 0
   }
 ]
